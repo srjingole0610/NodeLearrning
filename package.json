@@ -4,12 +4,15 @@
   "description": "project to learn the Node",
   "main": "app.js",
   "scripts": {
-
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "author": "Suraj Ingole",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^5.3.3",
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
   }
 }
